@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/3.0"
+        id          = "be.ugent.chronicals"
+        versionCode = "101"
+        version     = "1.0.2">
+
+    <name>Chronicals</name>
+
+    <description>
+        A headache diary app
+    </description>
+
+    <icon src="icon.png" />
+    <author>
+        Kiani Lannoye and Gilles Vandewiele
+    </author>
+
+	<preference name="orientation" value="portrait" />
+
+	<feature name="http://api.phonegap.com/1.0/file"/>
+    <feature name="http://api.phonegap.com/1.0/notification"/>
+    <feature name="App">
+        <param name="android-package" value="org.apache.cordova.App" />
+    </feature>
+
+    <platform name="ios"><icon src="icon.png" /></platform>
+    <platform name="android" />
+
+    <allow-navigation href = "http://tw06v033.ugent.be/*" />
+    <allow-navigation href = "http://*/*" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="http://localhost/*" />
+    <access origin="*" />
+
+    <!--<gap:plugin name="de.appplant.cordova.plugin.email-composer" version="0.8.2" />-->
+
+</widget>

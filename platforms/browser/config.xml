@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="be.ugent.chronicals" version="1.0.2" versionCode="101" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/3.0">
+    <name>Chronicals</name>
+    <description>
+        A headache diary app
+    </description>
+    <icon src="icon.png" />
+    <author>
+        Kiani Lannoye and Gilles Vandewiele
+    </author>
+    <allow-navigation href="http://tw06v033.ugent.be/*" />
+    <allow-navigation href="http://*/*" />
+    <access origin="http://localhost/*" />
+    <access origin="*" />
+    <preference name="orientation" value="portrait" />
+</widget>
